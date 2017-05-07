@@ -9,22 +9,21 @@ public class PlayerMovement : MonoBehaviour {
 
     public Animator animator;
     public NavMeshAgent agent;
-    public float inputHoldDelay = 0.5f;
-    public float turnSpeedThreshold = 0.5f;
+    public float turnSmoothing = 15f;
     public float speedDampTime = 0.1f;
     public float slowingSpeed = 0.175f;
-    public float turnSmoothing = 15f;
+    public float turnSpeedThreshold = 0.5f;
+    public float inputHoldDelay = 0.5f;
 
-    private WaitForSeconds inputHoldWait;
-    private Vector3 destinationPosition;
     private Interactable currentInteractable;
+    private Vector3 destinationPosition;
     private bool handleInput = true;
-
-    private const float stopDistanceProportion = 0.1f;
-    private const float navMeshSampleDistance = 4f;
-
+    private WaitForSeconds inputHoldWait;
     private readonly int hashSpeedPara = Animator.StringToHash("Speed");
     private readonly int hashLocomotionTag = Animator.StringToHash("Locomotion");
+    public const string startingPositionKey = "starting position";
+    private const float stopDistanceProportion = 0.1f;
+    private const float navMeshSampleDistance = 4f;
 
     private void Start()
     {

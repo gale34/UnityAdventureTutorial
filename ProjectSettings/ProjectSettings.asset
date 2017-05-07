@@ -640,7 +640,7 @@ PlayerSettings:
     Game_Performance: 0
     Hub: 0
     Purchasing: 0
-    UNet: 0
+    UNet: 1
     Unity_Ads: 0
   cloudProjectId: 9a4bdc9c-6284-48f6-b28c-1d9fb18ba122
   projectName: AdventureTutorial (1)

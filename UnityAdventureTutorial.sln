@@ -1,0 +1,26 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2015
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityAdventureTutorial", "UnityAdventureTutorial.csproj", "{9D5D8017-C9E1-0FA4-873C-C3A40FA12F17}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityAdventureTutorial.Editor", "UnityAdventureTutorial.Editor.csproj", "{9B968AD6-3067-933D-D898-2D124CC4B105}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9D5D8017-C9E1-0FA4-873C-C3A40FA12F17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D5D8017-C9E1-0FA4-873C-C3A40FA12F17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D5D8017-C9E1-0FA4-873C-C3A40FA12F17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D5D8017-C9E1-0FA4-873C-C3A40FA12F17}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B968AD6-3067-933D-D898-2D124CC4B105}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B968AD6-3067-933D-D898-2D124CC4B105}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B968AD6-3067-933D-D898-2D124CC4B105}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B968AD6-3067-933D-D898-2D124CC4B105}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
